@@ -262,3 +262,24 @@ h2 {
     color: #22c55e !important; /* Color verde de éxito */
     font-weight: bold;
 }
+
+/* 10. ESTILO DEL BOTÓN DE DESCARGA */
+.boton-descarga {
+    display: inline-block; /* Permite darle tamaño y márgenes */
+    padding: 12px 25px;
+    background-color: #22c55e; /* Un color verde para que destaque (color de éxito) */
+    color: #ffffff;
+    text-decoration: none; /* Quitamos el subrayado */
+    border-radius: 8px;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+/* Efecto al pasar el ratón */
+.boton-descarga:hover {
+    background-color: #16a34a; /* Verde un poco más oscuro */
+    transform: scale(1.05); /* Se agranda un poquito (5%) */
+    box-shadow: 0 4px 15px rgba(34, 197, 94, 0.4); /* Añade un brillo verde suave */
+}
