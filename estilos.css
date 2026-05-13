@@ -243,3 +243,22 @@ h2 {
         align-items: center;
     }
 }
+
+/* ========================================= */
+/* 9. ESTILOS PARA INTERACTIVIDAD (JS)       */
+/* ========================================= */
+
+.correo-interactivo {
+    cursor: pointer; /* Cambia el ratón a una manita al pasar por encima */
+    transition: color 0.3s ease; /* Hace que el cambio de color sea suave */
+}
+
+.correo-interactivo:hover {
+    color: #38bdf8; /* Se vuelve azul claro para indicar que es interactivo */
+}
+
+/* Esta clase se la pondremos con JavaScript cuando se copie el correo */
+.texto-copiado {
+    color: #22c55e !important; /* Color verde de éxito */
+    font-weight: bold;
+}
