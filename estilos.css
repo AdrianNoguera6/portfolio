@@ -350,3 +350,39 @@ body.modo-claro .enlace-red {
 body.modo-claro .icono-blanco {
     filter: none;
 }
+
+/* ========================================= */
+/* 12. ANIMACIONES DE ENTRADA (FADE UP)      */
+/* ========================================= */
+
+/* 1. Definimos los pasos de la animación */
+@keyframes aparecerYSubir {
+    0% {
+        opacity: 0; /* Totalmente invisible */
+        transform: translateY(40px); /* Empieza 40 píxeles más abajo de su posición real */
+    }
+    100% {
+        opacity: 1; /* Totalmente visible */
+        transform: translateY(0); /* Termina exactamente en su posición original */
+    }
+}
+
+/* 2. Aplicamos la animación a TODAS las tarjetas de tu web */
+.tarjeta {
+    opacity: 0; /* Hacemos que empiecen invisibles obligatoriamente */
+    /* animation: NombreAnimación | duración | ritmo | estado final */
+    animation: aparecerYSubir 0.8s ease-out forwards;
+}
+
+/* 3. Efecto Cascada: Retrasamos un poquito el inicio de cada tarjeta */
+/* Tarjetas de la izquierda */
+.columna-izquierda .tarjeta:nth-child(1) { animation-delay: 0.1s; }
+.columna-izquierda .tarjeta:nth-child(2) { animation-delay: 0.3s; }
+.columna-izquierda .tarjeta:nth-child(3) { animation-delay: 0.5s; }
+
+/* Tarjetas de la derecha (empezamos un poco después para que la mirada vaya de izquierda a derecha) */
+.columna-derecha .tarjeta:nth-child(1) { animation-delay: 0.2s; }
+.columna-derecha .tarjeta:nth-child(2) { animation-delay: 0.4s; }
+.columna-derecha .tarjeta:nth-child(3) { animation-delay: 0.6s; }
+.columna-derecha .tarjeta:nth-child(4) { animation-delay: 0.8s; }
+.columna-derecha .tarjeta:nth-child(5) { animation-delay: 1.0s; }
