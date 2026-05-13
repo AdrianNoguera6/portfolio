@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Adrián Noguera Esteban</title>
+    <!-- Enlazamos nuestro archivo de estilos -->
+    <link rel="stylesheet" href="estilos.css">
+    <!-- Importamos una fuente moderna de Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Contenedor principal que dividirá la pantalla en dos -->
+    <main class="contenedor-principal">
+
+        <!-- ================= COLUMNA IZQUIERDA ================= -->
+        <aside class="columna-izquierda">
+            
+            <!-- Perfil Principal (Aquí va tu única foto) -->
+            <section class="tarjeta perfil">
+                <!-- Cambia 'tu-foto.jpg' por el nombre de tu archivo de imagen -->
+                <img src="Fotos/FotoPerfil.png" alt="Foto de perfil de Adrián Noguera" class="foto-perfil">                <h1>Adrián Noguera Esteban</h1>
+                <p class="subtitulo">Desarrollador Junior | Estudiante DAM</p>
+            </section>
+
+            <!-- Sobre mí (Actualizado) -->
+            <section class="tarjeta sobre-mi">
+                <h2>Sobre Mí</h2>
+                <p>Soy programador sin experiencia, cursando formación profesional en desarrollo de aplicaciones multiplataforma (DAM).</p>
+                
+                <!-- NUEVO: Etiquetas de información personal -->
+                <div class="tags-info">
+                    <span class="tag">🎂 19 Años</span>
+                    <span class="tag">✈️ Disponibilidad para viajar</span>
+                </div>
+
+                <!-- Bloque destacado -->
+                <div class="bloque-destacado">
+                    <p>🚀 <strong>Objetivo:</strong> Crear software eficiente y resolver problemas complejos mediante la programación.</p>
+                </div>
+                
+                <h3>Aficiones</h3>
+                <div class="aficiones">
+                    <span>🏃 Deportes</span>
+                    <span>🎮 Videojuegos</span>
+                    <span>👥 Eventos sociales</span>
+                </div>
+            </section>
+
+            <!-- Habilidades (Skills) -->
+            <section class="tarjeta skills">
+                <h2>Habilidades</h2>
+                <div class="grid-skills">
+                    <!-- Habilidad: Java -->
+                    <div class="skill">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Logo de Java" class="img-skill">
+                        <span>Java</span>
+                    </div>
+
+                    <!-- Habilidad: Python -->
+                    <div class="skill">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Logo de Python" class="img-skill">
+                        <span>Python</span>
+                    </div>
+
+                    <!-- Habilidad: JavaScript -->
+                    <div class="skill">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="Logo de JavaScript" class="img-skill">
+                        <span>JavaScript</span>
+                    </div>
+
+                    <!-- Habilidad: MySQL -->
+                    <div class="skill">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="Logo de MySQL" class="img-skill">
+                        <span>MySQL</span>
+                    </div>
+
+                    <!-- Habilidad: C# -->
+                    <div class="skill">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" alt="Logo de C#" class="img-skill">
+                        <span>C#</span>
+                    </div>
+                </div>
+            </section>
+
+        </aside>
+
+        <!-- ================= COLUMNA DERECHA ================= -->
+        <section class="columna-derecha">
+
+            <!-- Certificaciones -->
+            <section class="tarjeta certificaciones">
+                <h2>Certificaciones</h2>
+                <div class="grid-certs">
+                    <!-- Certificación 1: AWS -->
+                    <div class="cert">
+                        <!-- Cambia 'aws-badge.png' por el nombre real de tu imagen -->
+                        <img src="Fotos\certificadoAWS.png" alt="Insignia AWS Academy Cloud Architecting" class="img-insignia">
+                        <p>AWS Academy Cloud Architecting</p>
+                    </div>
+
+                    <!-- Certificación 2: Unity -->
+                    <div class="cert">
+                        <!-- Cambia 'unity-badge.png' por el nombre real de tu imagen -->
+                        <img src="Fotos\certificadoUnity.png" alt="Insignia Unity Certified User" class="img-insignia">
+                        <p>Unity Certified User: Programmer</p>
+                    </div>
+
+                    <!-- Certificación 3: Linux -->
+                    <div class="cert">
+                        <!-- Cambia 'linux-badge.png' por el nombre real de tu imagen -->
+                        <img src="Fotos\certificadoLinux.png" alt="Insignia Linux Unhatched" class="img-insignia">
+                        <p>Linux Unhatched</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Educación -->
+            <section class="tarjeta educacion">
+                <h2>Educación</h2>
+                <div class="item-educacion">
+                    <span class="fecha">2024 - Actualidad</span>
+                    <div>
+                        <h3>Grado Superior DAM</h3>
+                        <p>Centro Profesional Joyfe</p>
+                    </div>
+                </div>
+                <div class="item-educacion">
+                    <span class="fecha">2022 - 2024</span>
+                    <div>
+                        <h3>Bachillerato Científico</h3>
+                        <p>IES Julio Perez</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contacto -->
+            <section class="tarjeta contacto">
+                <h2>Contacto</h2>
+                <p>📞 689-15-42-83</p>
+                <p>✉️ adriannogueraesteban@gmail.com</p>
+                <p>📍 Madrid, Rivas-Vaciamadrid</p>
+            </section>
+
+            <!-- Sección de Idiomas -->
+            <section class="tarjeta idiomas">
+                <h2>Idiomas</h2>
+                <div class="lista-idiomas">
+                    <div class="idioma">
+                        <span>Español</span>
+                        <span class="nivel">Nativo</span>
+                    </div>
+                    <div class="idioma">
+                        <span>Inglés</span>
+                        <span class="nivel">Medio</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección de Redes Profesionales -->
+            <section class="tarjeta redes">
+                <h2>Redes Profesionales</h2>
+                <div class="lista-redes">
+                    <!-- Enlace a GitHub -->
+                    <!-- Cambia el "#" por el enlace real a tu perfil de GitHub -->
+                    <a href="https://github.com/AdrianNoguera6" class="enlace-red" target="_blank">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="Logo de GitHub" class="icono-red icono-blanco">
+                        <span>GitHub</span>
+                    </a>
+
+                    <!-- Enlace a LinkedIn -->
+                    <!-- Cambia el "#" por el enlace real a tu perfil de LinkedIn -->
+                    <a href="#" class="enlace-red" target="_blank">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" alt="Logo de LinkedIn" class="icono-red">
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </section>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
